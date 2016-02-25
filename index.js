@@ -1,10 +1,6 @@
 var express = require('express');
 var lib = require('packs-lib');
 
-//FIX THIS WHEN SPLIT TO ACTUAL APPS
-var mongoose = require('mongoose');
-mongoose.connect(lib.services.mongo);
-
 var app = express();
 
 var queue = lib.queue;
